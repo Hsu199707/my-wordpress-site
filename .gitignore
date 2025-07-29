@@ -1,0 +1,16 @@
+# Ignore WordPress core folders
+wp-admin/
+wp-includes/
+
+# Ignore config files with sensitive info
+wp-config.php
+
+# Ignore database backups and logs
+*.sql
+*.log
+
+# Ignore uploads (optional, because can be large)
+wp-content/uploads/
+
+# Ignore Node.js modules if you use any build tools
+node_modules/
